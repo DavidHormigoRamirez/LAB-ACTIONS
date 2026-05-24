@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ main ]
     paths: [ 'hangman-front/**' ]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90cbd47f324c139689e98309472d6e986062f348
 jobs:
   build:
     runs-on: ubuntu-latest
