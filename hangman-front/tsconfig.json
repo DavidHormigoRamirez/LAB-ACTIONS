@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
     "sourceMap": true,
-    "target": "es2019",
-    "strictNullChecks": false,
-    "resolveJsonModule": true,
-    "skipLibCheck": true
+    "jsx": "react",
+    "noLib": false,
+    "allowJs": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src/",
   },
-  "exclude": ["node_modules"]
+  "include": ["./src/**/*"]
 }
