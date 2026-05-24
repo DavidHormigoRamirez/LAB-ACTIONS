@@ -1,8 +1,5 @@
 {
-  "printWidth": 120,
-  "tabWidth": 2,
-  "endOfLine": "lf",
-  "trailingComma": "all",
   "singleQuote": true,
-  "arrowParens": "always"
+  "trailingComma": "es5",
+  "endOfLine": "lf"
 }
