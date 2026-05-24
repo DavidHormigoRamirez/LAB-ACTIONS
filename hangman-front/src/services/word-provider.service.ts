@@ -28,7 +28,6 @@ export interface SelectedWord {
 }
 
 // TODO: Throw custom exception for service not initialized.
-// Cambio minimo para probar
 export const selectWord = (): SelectedWord => {
   const categoryIndex = chance.integer({ min: 0, max: wordProviderSetup.categoriesCount - 1 });
   const wordCategory = wordProviderSetup.wordCategoryCollection.find((w) => w.categoryId === categoryIndex);
